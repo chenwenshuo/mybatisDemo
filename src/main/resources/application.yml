@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://106.75.60.175/test?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 1234
+
+mybatis:
+  mapperLocations: classpath:mapper/**/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
